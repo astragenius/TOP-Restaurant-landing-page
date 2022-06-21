@@ -1,2 +1,4 @@
 import './scss/index.scss'
-import logo from './img/logo.png'
+import logo from './assets/images/logo.png'
+
+document.querySelector('.logo').src = logo

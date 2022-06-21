@@ -13,7 +13,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
-        assetModuleFilename: 'assets/images/[name][ext]',
+        assetModuleFilename: 'assets/img/[name][ext]',
+        assetModuleFilename: 'assets/fonts/[name][ext]',
         clean: true,
     },
 
