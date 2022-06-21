@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid magenta;
+    
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+    img {
+        width: rem(80);
+        height: rem(80);
+    }
+    
+}
+
+.navigation {
+
+    max-width: 100%;
+}
+
+.navigation-item-container {
+    display: flex;
+    justify-content:space-between;
+    padding: 0;
+    margin: 0;
+    
+    border: 2px solid brown;
+    
+    
+}
+.navigation-item:nth-last-of-type(2n) {
+    padding-left: rem(85);
+    padding-right: rem(85);
+}
+
+.btn--header {
+    min-width: rem(120);
+}
