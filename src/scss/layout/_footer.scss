@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.footer-bottom {
+    
+    
+    margin-top: rem(40);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.social-container {
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.social-container svg {
+    
+    width: 20px;
+    height: 20px;
+    margin-right: rem(30);
+    cursor: pointer;
+
+}
+
+.copyright {
+    flex: 60%;
+}

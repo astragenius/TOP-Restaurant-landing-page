@@ -25,3 +25,8 @@ button {
         background-color: lighten($primary-yellow-100, 20);
     }       
 }
+
+.btn--footer {
+    background-color: $black;
+    color: $white;
+}
