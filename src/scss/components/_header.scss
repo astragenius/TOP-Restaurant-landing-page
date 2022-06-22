@@ -1,0 +1,18 @@
+header *{
+    font-weight: 400;
+
+}
+.logo-name {
+    color: $white;
+    letter-spacing: 2.5px;
+}
+
+.navigation-item {
+
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+}

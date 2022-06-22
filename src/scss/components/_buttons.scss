@@ -1,0 +1,19 @@
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn {
+    
+    font-size: rem(24);
+    padding: rem(17) rem(35);
+    border-radius: rem(3);
+
+}
+
+.btn--header {
+    color: $primary-red-100;
+    background-color: $primary-yellow-100;
+}

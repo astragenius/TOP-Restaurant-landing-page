@@ -1,5 +1,8 @@
+body {
+  font-family: 'Inter', 'system';
+} 
 
- .wrapper {
+.wrapper {
     width: 90vw;
     width: clamp(16rem, 90vw, 70rem);
     margin-left: auto;
