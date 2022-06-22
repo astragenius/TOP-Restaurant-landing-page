@@ -7,20 +7,3 @@ header *{
     letter-spacing: 2.5px;
 }
 
-.navigation-item {
-
-    list-style: none;
-
-    a {
-        text-decoration: none;
-        color: $white;
-        letter-spacing: 1.5px;
-        transition: 200ms ease-in-out;
-
-        @include focus-visible($white);
-
-        @include on-event {
-            color: lighten($primary-yellow-100, 50);
-        }
-    }
-}   
