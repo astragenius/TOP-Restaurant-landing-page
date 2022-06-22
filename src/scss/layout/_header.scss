@@ -2,7 +2,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid magenta;
+    margin-top: 2em;
+    /* border: 1px solid magenta; */
     
 }
 
@@ -20,25 +21,6 @@ header {
     
 }
 
-.navigation {
-
-    max-width: 100%;
-}
-
-.navigation-item-container {
-    display: flex;
-    justify-content:space-between;
-    padding: 0;
-    margin: 0;
-    
-    //border: 2px solid brown;
-    
-    
-}
-.navigation-item:nth-last-of-type(2n) {
-    padding-left: rem(85);
-    padding-right: rem(85);
-}
 
 .btn--header {
     min-width: rem(120);

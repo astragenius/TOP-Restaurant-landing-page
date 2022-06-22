@@ -11,9 +11,17 @@ button {
     padding: rem(17) rem(35);
     border-radius: rem(3);
 
+    transition: 300ms ease-in;
+
 }
 
 .btn--header {
     color: $primary-red-100;
     background-color: $primary-yellow-100;
+
+    @include focus-visible($white);  
+    @include on-event {
+        
+        background-color: lighten($primary-yellow-100, 20);
+    }       
 }
