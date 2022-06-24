@@ -7,7 +7,7 @@ button {
 
 .btn {
     
-    font-size: rem(24);
+    font-size: rem(16);
     padding: rem(17) rem(35);
     border-radius: rem(3);
 
@@ -29,4 +29,7 @@ button {
 .btn--footer {
     background-color: $black;
     color: $white;
+    padding: rem(15) rem(35);
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
 }

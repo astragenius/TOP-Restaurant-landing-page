@@ -1,7 +1,9 @@
 footer {
     background-color: $primary-yellow-100;
-    padding: rem(45) rem(30);
+    
 }
+
+
 
 .nav--footer {
     
@@ -9,4 +11,17 @@ footer {
         color: $primary-red-100;
         font-weight: 400;
     }
+
+
+}
+
+
+.footer-bottom {
+    border-top: 1px solid lighten(#243054, 20);
+    
+   
+}
+
+.copyright {
+    font-size: rem(13);
 }
