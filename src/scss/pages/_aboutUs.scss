@@ -40,3 +40,62 @@
     display: flex;
     gap: rem(30);
 }
+
+
+/* Milestone Section */
+
+.milestone {
+    background-color: $primary-yellow-100;
+    padding: rem(120) rem(70);
+}
+
+.milestone-box {
+    position: relative;
+    color: $black;
+    font-weight: 300;
+
+    .year {
+
+        font-size: rem(30);
+        font-weight: bold;
+    }
+
+    .titel {
+        font-size: rem(19);
+        font-weight: bold;
+    }
+
+    .text {
+        font-size: rem(14);
+        color: $primary-red-100;
+    }
+}
+
+.milestone-box::before {
+
+    position: absolute;
+    content: '';
+    background-color: $primary-red-100;
+    width: 50px;
+    height: 4px;
+    top: -15px;
+    border-radius: rem(5);
+}
+
+.milestone-box * + * {
+    margin-top: 1em;
+}
+
+
+/* MAP --- section */
+
+.map {
+    background-color: #243054;
+    padding: rem(120) rem(100);
+}
+
+.map-container {
+    background-color: $primary-red-100;
+    display: flex;
+    align-items: center;
+}

@@ -22,6 +22,8 @@ import menu9 from './assets/images/menu9.png'
 import story1 from './assets/images/storyIMG1.png'
 import story2 from './assets/images/storyIMG2.png'
 
+import map from './assets/images/map-img.png'
+
 document.querySelector('.logo').src = logo
 document.querySelector('.hero-img').src = hero
 
@@ -46,3 +48,5 @@ document.querySelector('#menu9').src = menu9
 
 document.querySelector('#storyImg1').src = story1
 document.querySelector('#storyImg2').src = story2
+
+document.querySelector('#map-img').src = map
