@@ -1,4 +1,5 @@
-button {
+button,
+a {
     background: none;
     border: none;
     cursor: pointer;
@@ -25,6 +26,21 @@ button {
         background-color: lighten($primary-yellow-100, 20);
     }       
 }
+
+.btn-cta {
+    background: transparent;
+    color: $primary-yellow-100;
+    border: 2px solid $primary-yellow-100;
+    padding: rem(10) rem(20);
+    border-radius: 0;
+
+    @include on-event {
+        background-color: $primary-yellow-100;
+        color: $primary-red-100;
+    }
+
+}
+
 
 .btn--footer {
     background-color: $black;

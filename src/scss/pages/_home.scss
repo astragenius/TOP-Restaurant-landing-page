@@ -2,30 +2,40 @@ body {
     background-color: $primary-red-100;
 }
 
+
+
+/* HERO  --------SECTION */
+
 .hero {
     display: flex;
     position: relative;
 
-
-
+    margin-top: rem(30);
+    margin-bottom: rem(80);
 
 }
 
 .hero-text {
     z-index: 100;
+    margin-top: rem(50);
     h2,
     p {
-        color: $white;
-        
+        color: $white;   
     }
 
     p {
-        width: 35ch;
+        width: 40ch;
+        margin-top: rem(16);
+        margin-bottom: rem(40);
+        line-height: 2;
+        font-weight: 300;
+        letter-spacing: 1.2px;
     }
 
     h2 {
+        background: rgba(91, 0, 23, 0.6);
         font-size: rem(80);
-        line-height: 1;
+        line-height: 1.2;
         width: 15ch;
     }
 }
@@ -36,4 +46,10 @@ body {
     width: 600px;
     top: 0;
     right: 0;
+
+    
 }
+
+
+
+
