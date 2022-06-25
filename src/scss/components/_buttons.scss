@@ -53,6 +53,7 @@ a {
     background-color: $primary-yellow-100;
     color: $primary-red-100;
     border-radius: 0;
+   
 }
 .btn-dislodged::before {
     position: absolute;
@@ -63,6 +64,7 @@ a {
     top: 6px;
     right: 6px;
     border: 2px solid $primary-yellow-100;
+
 }
 
 
