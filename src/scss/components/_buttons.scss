@@ -4,6 +4,12 @@ a {
     border: none;
     cursor: pointer;
 
+
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
 }
 
 .btn {
@@ -39,6 +45,24 @@ a {
         color: $primary-red-100;
     }
 
+}
+
+.btn-dislodged {
+    position: relative;
+    padding: rem(15) rem(20);
+    background-color: $primary-yellow-100;
+    color: $primary-red-100;
+    border-radius: 0;
+}
+.btn-dislodged::before {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 6px;
+    right: 6px;
+    border: 2px solid $primary-yellow-100;
 }
 
 
