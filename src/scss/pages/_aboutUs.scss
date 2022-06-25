@@ -1,0 +1,42 @@
+.ourStory {
+    display: flex;
+    justify-content: space-between;
+    h2,
+    h3,
+    p {
+        color: $white;
+        font-weight: 300;
+    }
+    h2 {
+        font-size: rem(50);
+    }
+    
+}
+
+.left-section {
+    flex: 50%;
+    
+    p {
+        width: 35ch;
+    }
+}
+
+.right-section {
+    flex: 50%;
+
+    h3 {
+        font-size: rem(25);
+        font-weight: bold;
+    }
+}
+
+.right-section * + *,
+.left-section * + * {
+    margin-top: 1.5em;
+  } 
+
+
+.left-section-imgs {
+    display: flex;
+    gap: rem(30);
+}

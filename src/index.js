@@ -19,6 +19,9 @@ import menu7 from './assets/images/menu7.png'
 import menu8 from './assets/images/menu8.png'
 import menu9 from './assets/images/menu9.png'
 
+import story1 from './assets/images/storyIMG1.png'
+import story2 from './assets/images/storyIMG2.png'
+
 document.querySelector('.logo').src = logo
 document.querySelector('.hero-img').src = hero
 
@@ -40,3 +43,6 @@ document.querySelector('#menu6').src = menu6
 document.querySelector('#menu7').src = menu7
 document.querySelector('#menu8').src = menu8
 document.querySelector('#menu9').src = menu9
+
+document.querySelector('#storyImg1').src = story1
+document.querySelector('#storyImg2').src = story2
