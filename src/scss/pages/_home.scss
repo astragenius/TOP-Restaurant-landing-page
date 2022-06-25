@@ -185,5 +185,40 @@ body {
 
 
 
+/* OUR MENU - ---------SECTION */
+
+
+.ourMenu {
+    background-image: url(/src/assets/images/ourMenu-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+.ourMenu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.ourMenu-text {
+    
+    h3 {
+        color: $white;
+        text-align: center;
+        font-size: rem(35);
+        width: 30ch;
+        font-weight: 400;
+    }
+}
+
+
 
 
