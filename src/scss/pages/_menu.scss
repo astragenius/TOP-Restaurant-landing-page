@@ -1,0 +1,47 @@
+.titel {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2,
+    p {
+        color: $white;
+    }
+
+    h2 {
+        font-size: rem(40);
+        font-weight: 400;
+        width: 8ch;
+    }
+    p {
+        width: 30ch;
+        font-size: rem(15);
+        font-weight: 300;
+    }
+
+}
+
+
+
+/* MENU SECTION */
+
+.menu-box {
+
+    img {
+        border-radius: rem(4);
+    }
+
+    figcaption {
+        background-color: #243054;
+        color: $white;
+        font-size: rem(20);
+        padding: rem(20) rem(30) rem(15) rem(30);
+    } 
+}
+
+.menu-btn-container {
+    margin-top: rem(30);
+    display: flex;
+    justify-content: center;
+}

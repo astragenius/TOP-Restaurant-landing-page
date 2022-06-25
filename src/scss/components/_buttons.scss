@@ -47,6 +47,20 @@ a {
 
 }
 
+.btn-menu {
+    
+    background: transparent;
+    color: $white;
+    border: 2px solid $white;
+    padding: rem(10) rem(20);
+    border-radius: 0;
+
+    @include on-event {
+        background-color: $white;
+        color: $black;
+    }
+}
+
 .btn-dislodged {
     position: relative;
     padding: rem(15) rem(20);
