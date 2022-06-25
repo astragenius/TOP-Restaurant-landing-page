@@ -122,4 +122,68 @@ body {
 
 
 
+/* ----------------------------- */
+
+
+
+
+/* TESTEMONIAL SECTION */
+
+
+.testemonial {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $primary-yellow-100;
+
+
+    
+}
+
+.testemonial-content {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: rem(50) rem(50) rem(10) rem(60);
+    
+    
+    
+    cite {
+        display: block;
+    }
+    
+}
+
+.testemonial-text {
+    
+    margin-bottom: rem(100);
+    text-align: left;
+    width: 30ch;
+    font-size: rem(21);
+    line-height: 2;
+    font-weight: 300;
+}
+
+
+.testemonial-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    .testemonial-name {
+        font-weight: bold;
+        font-size: rem(13);
+    }
+
+    .testemonial-location {
+        font-size: rem(13);
+        font-weight: 200;
+    }
+}
+
+
+
+
+
 
