@@ -3,6 +3,8 @@ import venue from '../assets/images/venue-img.png'
 import prev1 from '../assets/images/venue-preview-1.png'
 import prev2 from '../assets/images/venue-preview-2.png'
 import prev3 from '../assets/images/venue-preview-3.png'
+import testemonialImg from '../assets/images/testemonial-img.png'
+import testemonialImg2 from '../assets/images/testemonial-img2.png'
 
 const Home = (function () {
     'use strict'
@@ -50,9 +52,40 @@ const Home = (function () {
 
     </div>`
 
+    const testemonialSection = document.createElement('section')
+    testemonialSection.classList.add('testemonial', 'section--spacing')
+    testemonialSection.innerHTML = `
+    <div class="testemonial-container">
+
+                <blockquote class="testemonial-content">
+
+                    <div class="testemonial-text">
+                        <p>" You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it. "</p>
+                    </div>
+
+                    <footer class="testemonial-footer">
+                        <div>
+                            <cite class="testemonial-name">Kahlid Al Dwsry</cite>
+                            <cite class="testemonial-location">Jeddah, Saudi Arabia</cite>
+                        </div>
+
+                        <div><img id="testemonial-img" src="${testemonialImg}" alt=""></div>
+                    </footer>
+
+                </blockquote>
+                <div>
+
+                       <img class="testemonial-img" src="${testemonialImg2}" alt="">
+
+                </div>
+
+
+    </div>`
+
     function renderDOM() {
         main.appendChild(heroSection)
         main.appendChild(venueSection)
+        main.appendChild(testemonialSection)
 
         return main
     }

@@ -60,4 +60,4 @@ const menuBtn = document.getElementById('menu-link')
 const aboutUsBtn = document.getElementById('about-link')
 const content = document.getElementById('content')
 
-content.appendChild(Home.renderDOM())
+content.appendChild()
