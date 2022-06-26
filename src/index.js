@@ -17,12 +17,16 @@ const aboutUsBtn = document.getElementById('about-link')
 const content = document.getElementById('content')
 
 window.onload = () => {
-    content.appendChild(Home.renderDOM())
-    console.log(content)
+    if (content.lastElementChild == null) {
+        console.log(content)
+        content.appendChild(Home.renderDOM())
+    } else {
+        content.lastElementChild.remove()
+    }
 }
 
 homeBtn.addEventListener('click', () => {
-    content.lastElementChild.remove()
+    content.lastChild.remove()
     content.appendChild(Home.renderDOM())
 })
 

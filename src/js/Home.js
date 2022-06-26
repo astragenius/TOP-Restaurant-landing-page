@@ -5,27 +5,60 @@ import prev2 from '../assets/images/venue-preview-2.png'
 import prev3 from '../assets/images/venue-preview-3.png'
 import testemonialImg from '../assets/images/testemonial-img.png'
 import testemonialImg2 from '../assets/images/testemonial-img2.png'
+import { Menu } from './Menu'
 
 const Home = (function () {
     'use strict'
-
     const main = document.createElement('main')
     main.classList.add('main-home-container', 'wrapper')
+    const heroSection = _heroSection()
 
-    const heroSection = document.createElement('section')
-    heroSection.classList.add('hero', 'section--spacing')
-    heroSection.innerHTML = `
+    function renderLink() {
+        const menuLink = document.createElement('a')
+        menuLink.setAttribute('id', 'ourMenu')
+        menuLink.addEventListener('click', menu)
+        menuLink.classList.add('btn', 'btn-cta')
+        menuLink.textContent = 'Our Menu'
+        return menuLink
 
+        function menu() {
+            const content = document.getElementById('content')
+            console.log(content)
+            content.lastElementChild.remove()
 
-            <div class="hero-text">
-                <h2>Taste the authentic Saudi cuisine</h2>
-                <p>Among the best Saudi chefs in the world, serving you something beyond flavor.</p>
-                <a href="" class="btn btn-cta">Our Menu</a>
-            </div>
-            <div>
-                <img class="hero-img" src="${hero}" alt="">
-            </div>
-            `
+            content.appendChild(Menu.renderDOM())
+        }
+    }
+
+    function _heroSection() {
+        const hSection = document.createElement('section')
+        hSection.classList.add('hero', 'section--spacing')
+
+        const heroText = document.createElement('div')
+        heroText.classList.add('hero-text')
+
+        const h2 = document.createElement('h2')
+        h2.textContent = 'Taste the authentic Saudi cusine'
+
+        const p = document.createElement('p')
+        p.textContent =
+            'Among the best Saudi chefs in the world, serving you something beyond flavor.'
+
+        heroText.appendChild(h2)
+        heroText.appendChild(p)
+        heroText.appendChild(renderLink())
+
+        const div = document.createElement('div')
+        const img = document.createElement('img')
+        img.classList.add('hero-img')
+        img.src = hero
+        div.appendChild(img)
+
+        hSection.appendChild(heroText)
+        hSection.appendChild(div)
+        console.log(hSection)
+        return hSection
+    }
 
     const venueSection = document.createElement('section')
     venueSection.classList.add('venue', 'section--spacing')
