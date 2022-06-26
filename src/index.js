@@ -1,4 +1,6 @@
 import './scss/index.scss'
+
+/* IMAGE IMPORTS */
 import logo from './assets/images/logo.png'
 import hero from './assets/images/hero-img.png'
 import venue from './assets/images/venue-img.png'
@@ -23,6 +25,8 @@ import story1 from './assets/images/storyIMG1.png'
 import story2 from './assets/images/storyIMG2.png'
 
 import map from './assets/images/map-img.png'
+
+/* IMAGES LOADING */
 
 document.querySelector('.logo').src = logo
 document.querySelector('.hero-img').src = hero
