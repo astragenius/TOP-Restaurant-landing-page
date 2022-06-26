@@ -15,4 +15,23 @@ const homeBtn = document.getElementById('home-link')
 const menuBtn = document.getElementById('menu-link')
 const aboutUsBtn = document.getElementById('about-link')
 const content = document.getElementById('content')
-content.appendChild(AboutUs.renderDOM())
+
+window.onload = () => {
+    content.appendChild(Home.renderDOM())
+    console.log(content)
+}
+
+homeBtn.addEventListener('click', () => {
+    content.lastElementChild.remove()
+    content.appendChild(Home.renderDOM())
+})
+
+menuBtn.addEventListener('click', () => {
+    content.lastElementChild.remove()
+    content.appendChild(Menu.renderDOM())
+})
+
+aboutUsBtn.addEventListener('click', () => {
+    content.lastElementChild.remove()
+    content.appendChild(AboutUs.renderDOM())
+})
