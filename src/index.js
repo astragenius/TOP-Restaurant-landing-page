@@ -1,8 +1,9 @@
 import './scss/index.scss'
+import { Home } from './js/Home'
 
 /* IMAGE IMPORTS */
 import logo from './assets/images/logo.png'
-import hero from './assets/images/hero-img.png'
+//import hero from './assets/images/hero-img.png'
 import venue from './assets/images/venue-img.png'
 import prev1 from './assets/images/venue-preview-1.png'
 import prev2 from './assets/images/venue-preview-2.png'
@@ -29,14 +30,13 @@ import map from './assets/images/map-img.png'
 /* IMAGES LOADING */
 
 document.querySelector('.logo').src = logo
-document.querySelector('.hero-img').src = hero
 
-document.querySelector('.venue-img').src = venue
+/* document.querySelector('.venue-img').src = venue
 document.querySelector('.preview-img1').src = prev1
 document.querySelector('.preview-img2').src = prev2
 document.querySelector('.preview-img3').src = prev3
 document.getElementById('testemonial-img').src = testemonialImg
-document.querySelector('.testemonial-img').src = testemonialImg2
+document.querySelector('.testemonial-img').src = testemonialImg2 */
 
 document.querySelector('#menu1').src = menu1
 document.querySelector('#menu2').src = menu2
@@ -54,3 +54,10 @@ document.querySelector('#storyImg1').src = story1
 document.querySelector('#storyImg2').src = story2
 
 document.querySelector('#map-img').src = map
+
+const homeBtn = document.getElementById('home-link')
+const menuBtn = document.getElementById('menu-link')
+const aboutUsBtn = document.getElementById('about-link')
+const content = document.getElementById('content')
+
+content.appendChild(Home.renderDOM())
