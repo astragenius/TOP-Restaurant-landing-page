@@ -11,6 +11,7 @@ import menu8 from '../assets/images/menu8.png'
 import menu9 from '../assets/images/menu9.png'
 
 const Menu = (function () {
+    'use strict'
     const menuImgs = [
         menu1,
         menu2,
