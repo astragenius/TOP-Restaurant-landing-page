@@ -21,10 +21,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="/screenshots/the-odin-img.png" alt="Logo" width="300" height="80">
+    <img src="./screenshots/the-odin-img.png" alt="Logo" width="300" height="80">
   </a>
 
-<h3 align="center">Restaurant landing Page</h3>
+<h2 align="center">Restaurant landing Page</h2>
 
   <p align="center">
     The Odin Project Assignment
@@ -32,7 +32,7 @@
     <br />
     <a href="https://top-libary-app.vercel.app/">View Demo</a>
     ·
-    <a href="https://www.theodinproject.com/lessons/node-path-javascript-library">Link to the Assignment</a>
+    <a href="https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page">Link to the Assignment</a>
   </p>
 </div>
 
