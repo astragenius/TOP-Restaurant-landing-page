@@ -132,6 +132,31 @@
 
 
 ## Acknowledgments
+#### Dislodged Border for Buttons
+![button](/screenshots/screen_button.png)
+
+```scss
+
+.btn-dislodged {
+    position: relative;
+    padding: rem(15) rem(20);
+    background-color: $primary-yellow-100;
+    color: $primary-red-100;
+    border-radius: 0;
+   
+}
+.btn-dislodged::before {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 6px;
+    right: 6px;
+    border: 2px solid $primary-yellow-100;
+
+}
+``` 
 
 
 
@@ -143,7 +168,7 @@
 
 Astragenius - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [Libary APP](https://github.com/astragenius/TOP-Libary-App)
+Project Link: [Restaurant Landing Page](https://github.com/astragenius/TOP-Restaurant-landing-page)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
