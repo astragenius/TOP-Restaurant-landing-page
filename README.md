@@ -20,7 +20,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/astragenius/TOP-Restaurant-landing-page">
     <img src="./screenshots/the-odin-img.png" alt="Logo" width="300" height="80">
   </a>
 
@@ -30,7 +30,7 @@
     The Odin Project Assignment
     <br />
     <br />
-    <a href="https://top-libary-app.vercel.app/">View Demo</a>
+    <a href="https://top-restaurant-landing-page.vercel.app/">View Demo</a>
     ·
     <a href="https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page">Link to the Assignment</a>
   </p>
